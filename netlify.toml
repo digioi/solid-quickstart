@@ -1,5 +1,5 @@
 [build]
-  command = "solid-start build"
+  command = "echo $MY_ENV && solid-start build"
   functions = "netlify/functions"
   publish = "netlify"
 
